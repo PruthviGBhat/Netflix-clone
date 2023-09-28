@@ -6,9 +6,9 @@ import Card from './Card';
 function App() {
   return (
     <>
-      {/* <Mainpage/>
+      <Mainpage/>
       <Hero/>
-      <Footer/> */}
+      <Footer/>
       <Card/>
     </>
   );

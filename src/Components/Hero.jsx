@@ -1,8 +1,8 @@
 import React from 'react'
-import tv from './tv.png'
-import mobiimg from './mobile-0819.jpg'
-import tvmobi from './tvmobi.png'
-import child from './child.png'
+import tv from '../Images/tv.png'
+import mobiimg from '../Images/mobile-0819.jpg'
+import tvmobi from '../Images/tvmobi.png'
+import child from '../Images/child.png'
 
 const Hero = () => {
     return (

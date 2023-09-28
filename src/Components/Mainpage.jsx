@@ -1,8 +1,8 @@
 import React from 'react'
-import mainimg from './mainimg.jpg'
-import './App.css';
+import mainimg from '../Images/mainimg.jpg'
 
 const Mainpage = () => {
+ 
     return (
         <>
             <div className='h-screen'
@@ -32,7 +32,9 @@ const Mainpage = () => {
                             </select>
                         </div>
                         <div>
-                            <button className='bg-red-600 p-2 px-4 rounded-md mx-2 text-white font-semibold'>Sign In</button>
+                
+                            <button className='bg-red-600 p-2 px-4 rounded-md mx-2 text-white font-semibold' >Sign In</button>
+                            
                         </div>
                     </div>
 
@@ -51,4 +53,4 @@ const Mainpage = () => {
     )
 }
 
-export default Mainpage
+export default Mainpage;
