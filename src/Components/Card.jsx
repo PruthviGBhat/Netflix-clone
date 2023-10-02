@@ -4,7 +4,7 @@ import Rows from './Rows';
 
 const Card = () => {
     const [movie,setMovie]= useState([]);
-
+ 
     const styles = {
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         backgroundSize: "cover",

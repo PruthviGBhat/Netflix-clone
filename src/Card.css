@@ -53,4 +53,27 @@
     right: 0;
     bottom: 0;
   }
-  
+  @media only screen and (max-width: 600px) {
+    .banner{
+      width: 550px;
+    }
+    .banner_description{
+      width: 15rem;
+      font-size: 0.9rem;
+    }
+    .banner_fadeBottom{
+      height: 150px;
+    }
+    .banner_title{
+     font-size: 2rem; 
+    }
+    .banner_button{
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .banner{
+      width: 650px;
+    }
+  }
